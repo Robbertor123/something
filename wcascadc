@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+for i in range (10**(a-1),10*(10**(a-1))):
+    if str(b+i)==str(b+i)[::-1]:
+        print (i)
+        break
